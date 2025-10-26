@@ -1,14 +1,12 @@
 ## Author 
 
-Welcome to a unique project that goes beyond the ordinary. I bring to you MystockMaster, a solution born out of my experience in the retail and ecommerce sectors, particularly in electronics such as PCs and smartphones. My continuous vigilance over critical aspects like user-friendliness and robustness aims to position us as the best in the open-source web apps category.
+Welcome to a unique project that goes beyond the ordinary. I bring to you POSMaster, a solution born out of my experience in the retail and ecommerce sectors, particularly in electronics such as PCs and smartphones. My continuous vigilance over critical aspects like user-friendliness and robustness aims to position us as the best in the open-source web apps category.
 
 I extend heartfelt gratitude to the Laravel community for their contributions, which have been a source of immense learning. Now, it's my turn to contribute and give back.
 
-(✌) سلام
-
 ## Overview 
 
-MystockMaster is a powerful, Laravel-based inventory management system designed to streamline operations for businesses of all sizes, particularly those in retail and e-commerce sectors dealing with electronics like PCs and smartphones. It simplifies the complexities of tracking inventory, sales, and purchases, empowering you to make data-driven decisions and optimize your business growth.
+POSMaster is a powerful, Laravel-based inventory management system designed to streamline operations for businesses of all sizes, particularly those in retail and e-commerce sectors dealing with electronics like PCs and smartphones. It simplifies the complexities of tracking inventory, sales, and purchases, empowering you to make data-driven decisions and optimize your business growth.
 
 **Key Benefits:**
 
@@ -37,11 +35,6 @@ Offering a user-friendly dashboard, intuitive reports, and an array of features,
 - **Send product promotions to Telegram:**  Engage with your customers directly by sending promotional messages via Telegram.
 
 
-## Demo
-
-You can check the demo here: 
-[https://test.hotechserver.com](https://test.hotechserver.com)
-
 
 ## Login with the following credentials
     -   Email: `admin@gmail.com`
@@ -59,8 +52,8 @@ You can check the demo here:
 
 1. **Clone the repository:** Obtain the project files by cloning the repository to your local machine using Git:
    ```bash
-   git clone <https://github.com/Zakarialabib/myStockMaster.git>
-   cd mystockmaster
+   git clone <https://github.com/ONI59/POSMaster.git>
+   cd POSMaster
    ```
 2. **Install PHP Dependencies:** Navigate to the project directory and install the required PHP packages using Composer:
    ```bash
@@ -75,7 +68,7 @@ You can check the demo here:
    npm run build
    ```
 5. **Configure Database:**
-   *   Create a new MySQL database for MystockMaster.
+   *   Create a new MySQL database for POSMaster.
    *   Copy the `.env.example` file to `.env` and update the database connection details (DB_DATABASE, DB_USERNAME, DB_PASSWORD) to match your database configuration.
 6. **Run Database Migrations and Seeders:** Set up the database tables and seed initial data:
    ```bash
@@ -84,7 +77,7 @@ You can check the demo here:
 7. **Login:** Access the application in your web browser, and log in with the following credentials:
     - Email: `admin@gmail.com`
     - Password: `password`
-8. **Enjoy!** You are now ready to start using MystockMaster to manage your inventory.
+8. **Enjoy!** You are now ready to start using POSMaster to manage your inventory.
 
 ## License
 
@@ -104,11 +97,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 | --- | --- |
 | ![Sale Create](screens/sale-create.png) | ![Customer Create](screens/customer-modal.png) |
 
-## Contact
-
--   [Twitter](https://twitter.com/zakarialabib)
--   [LinkedIn](https://www.linkedin.com/in/zakaria-labib/)
--   [GitHub](https://www.github.com/zakarialabib/)
 
 ## Donate
 
@@ -130,18 +118,5 @@ We welcome contributions of all kinds! Here's how you can help:
 - 📖 Improve documentation
 - 🔧 Submit pull requests
 
-## Contributors
-
-| Contributor | GitHub Profile |
-| --- | --- |
-| [Zakarialabib](https://github.com/Zakarialabib) | [![Avatar](https://github.com/Zakarialabib.png?size=50)](https://github.com/Zakarialabib) |
-| [elmarzouguidev](https://github.com/elmarzouguidev) | [![Avatar](https://github.com/elmarzouguidev.png?size=50)](https://github.com/elmarzouguidev) |
-| [bilton30](https://github.com/bilton30) | [![Avatar](https://github.com/bilton30.png?size=50)](https://github.com/bilton30) |
-| [ismaail](https://github.com/ismaail) | [![Avatar](https://github.com/ismaail.png?size=50)](https://github.com/ismaail) |
-| [yassinebenaid](https://github.com/yassinebenaid) | [![Avatar](https://github.com/yassinebenaid.png?size=50)](https://github.com/yassinebenaid) |
-| [slaweallx](https://github.com/slaweallx) | [![Avatar](https://github.com/slaweallx.png?size=50)](https://github.com/slaweallx) |
-| [fabyo0](https://github.com/fabyo0) | [![Avatar](https://github.com/fabyo0.png?size=50)](https://github.com/fabyo0) |
-| [hidjrahs](https://github.com/hidjrahs) | [![Avatar](https://github.com/hidjrahs.png?size=50)](https://github.com/hidjrahs) |
-| [josecarpio99](https://github.com/josecarpio99) | [![Avatar](https://github.com/josecarpio99.png?size=50)](https://github.com/josecarpio99) |
 
 
