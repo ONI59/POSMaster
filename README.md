@@ -52,32 +52,24 @@ Offering a user-friendly dashboard, intuitive reports, and an array of features,
 
 1. **Clone the repository:** Obtain the project files by cloning the repository to your local machine using Git:
    ```bash
-   git clone <https://github.com/ONI59/POSMaster.git>
-   cd POSMaster
+    run git clone https://github.com/ONI59/POSMaster.git
+    run cd POSMaster
+    run composer install 
+    run npm install
+    run npm run build
+    copy .env.example to .env
+    run php artisan key:generate
+    set up your database in the .env
+    run php artisan migrate --seed
+    run php artisan storage:link
+    run php artisan serve
+    then visit http://localhost:8000 or http://127.0.0.1:8000
    ```
-2. **Install PHP Dependencies:** Navigate to the project directory and install the required PHP packages using Composer:
-   ```bash
-   composer install
-   ```
-3. **Install Node.js Dependencies:** Install the necessary JavaScript packages using npm:
-   ```bash
-   npm install
-   ```
-4. **Compile Assets:** Compile the application's assets (CSS and JavaScript) using Laravel Mix:
-   ```bash
-   npm run build
-   ```
-5. **Configure Database:**
-   *   Create a new MySQL database for POSMaster.
-   *   Copy the `.env.example` file to `.env` and update the database connection details (DB_DATABASE, DB_USERNAME, DB_PASSWORD) to match your database configuration.
-6. **Run Database Migrations and Seeders:** Set up the database tables and seed initial data:
-   ```bash
-   php artisan migrate --seed
-   ```
-7. **Login:** Access the application in your web browser, and log in with the following credentials:
+
+**Login:** Access the application in your web browser, and log in with the following credentials:
     - Email: `admin@gmail.com`
     - Password: `password`
-8. **Enjoy!** You are now ready to start using POSMaster to manage your inventory.
+**Enjoy!** You are now ready to start using POSMaster to manage your inventory.
 
 ## License
 
